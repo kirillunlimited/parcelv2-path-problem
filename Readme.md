@@ -3,6 +3,8 @@ I need to be able to import my assets in html via "relative to final-ouput folde
 
 In Parcel v1 it worked fine, by now there is a problem.
 
+Issue: https://github.com/parcel-bundler/parcel/issues/7110
+
 ## How to run
 * `yarn install`
 * `yarn dev`
