@@ -1,0 +1,1 @@
+console.log('Parcel v2 path problem');
