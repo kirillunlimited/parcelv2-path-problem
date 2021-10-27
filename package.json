@@ -6,15 +6,14 @@
     "clean:cache": "npx shx rm -rf .parcel-cache",
     "clean:dist": "npx shx rm -rf output",
     "dev": "npm-run-all clean --parallel dev:*",
-    "dev:parcel": "parcel --dist-dir output",
+    "dev:parcel": "parcel src/**/*.html --dist-dir output",
     "build": "npm-run-all clean build:*",
-    "build:parcel": "parcel build --dist-dir output"
+    "build:parcel": "parcel build src/**/*.html --dist-dir output"
   },
   "author": "Kirill Ivanov",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.0.0"
-  },
-  "source": ["src/index.html", "src/about/index.html"]
+  }
 }
